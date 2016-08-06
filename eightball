@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import skilstak.colors as c
+import eightballbank as b
+
+answers= ["no","yes","Maybe"]
+
+print("type question here")
+question = input("> ")
+print(b.handleQuestion(question,answers))
